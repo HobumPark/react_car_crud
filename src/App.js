@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Car from "./components/Car";
 import InputForm from "./components/InputForm";
+import sonata_img from "./images/sonata.png";
+import avante_img from "./images/avante.png";
+import benz_img from "./images/benz.png";
 
 class App extends Component{
 
@@ -16,21 +19,21 @@ class App extends Component{
           name:'소나타',
           price:2400,
           year:2018,
-          car_img:"/images/sonata.png"
+          car_img:sonata_img
         },
         {
           id:2222,
           name:'아반떼',
           price:2200,
           year:2016,
-          car_img:"/images/avante.png"
+          car_img:avante_img
         },
         {
           id:3333,
           name:'벤츠',
           price:6500,
           year:2020,
-          car_img:"/images/benz.png"
+          car_img:benz_img
         }
       ]
     }
@@ -42,20 +45,24 @@ class App extends Component{
     const {carList}=this.state;
     //비구조화 할당:carList를 가져옴
     var eng_name='';
+    var car_img = ""
     if(name=="소나타")
     {
       eng_name="sonata";
+      car_img=sonata_img
     }
     else if(name=='아반떼')
     {
       eng_name="avante";
+      car_img=avante_img
     }
     else if(name=='벤츠')
     {
       eng_name='benz';
+      car_img=benz_img
     }
 
-    const car_img = "/images/"+eng_name+".png";
+    
 
     const data = 
     {id:id,name:name,price:price,year:year,car_img:car_img};
