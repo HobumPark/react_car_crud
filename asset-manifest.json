@@ -1,15 +1,18 @@
 {
   "files": {
     "main.css": "/react_car_crud/static/css/main.6b17e8ba.css",
-    "main.js": "/react_car_crud/static/js/main.5bae8a55.js",
+    "main.js": "/react_car_crud/static/js/main.8359454f.js",
     "static/js/787.28cb0dcd.chunk.js": "/react_car_crud/static/js/787.28cb0dcd.chunk.js",
+    "static/media/avante.png": "/react_car_crud/static/media/avante.824006c3cb9f901cb15a.png",
+    "static/media/benz.png": "/react_car_crud/static/media/benz.5d0dce106894f24eb835.png",
+    "static/media/sonata.png": "/react_car_crud/static/media/sonata.92c7b005934b07fb66ab.png",
     "index.html": "/react_car_crud/index.html",
     "main.6b17e8ba.css.map": "/react_car_crud/static/css/main.6b17e8ba.css.map",
-    "main.5bae8a55.js.map": "/react_car_crud/static/js/main.5bae8a55.js.map",
+    "main.8359454f.js.map": "/react_car_crud/static/js/main.8359454f.js.map",
     "787.28cb0dcd.chunk.js.map": "/react_car_crud/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b17e8ba.css",
-    "static/js/main.5bae8a55.js"
+    "static/js/main.8359454f.js"
   ]
 }
