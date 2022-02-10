@@ -1,0 +1,55 @@
+#carWrap
+{
+    width:1000px;
+    height:300px;
+    background-color: aqua;
+    margin:5px;
+}
+
+#carWrap>#carLogo
+{
+    float:left;
+    width:800px;
+    height:300px;
+    background-color: aquamarine;
+}
+
+#carWrap>#carLogo>img
+{
+    width:800px;
+    height:300px;
+}
+
+#carWrap>#rightSide
+{
+    float:left;
+    width:200px;
+    height:300px;
+    background-color: azure;
+}
+
+#carWrap>#rightSide>div
+{
+    width:200px;
+    height:75px;
+}
+
+#carWrap>#rightSide>div:first-child
+{
+    background-color: cadetblue;
+}
+
+#carWrap>#rightSide>div:nth-child(2)
+{
+    background-color: chartreuse;
+}
+
+#carWrap>#rightSide>div:nth-child(3)
+{
+    background-color: chocolate;
+}
+
+#carWrap>#rightSide>div:nth-child(4)
+{
+    background-color: crimson;
+}
