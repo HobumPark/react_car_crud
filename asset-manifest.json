@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react_car_crud/static/css/main.6b17e8ba.css",
+    "main.js": "/react_car_crud/static/js/main.5bae8a55.js",
+    "static/js/787.28cb0dcd.chunk.js": "/react_car_crud/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/react_car_crud/index.html",
+    "main.6b17e8ba.css.map": "/react_car_crud/static/css/main.6b17e8ba.css.map",
+    "main.5bae8a55.js.map": "/react_car_crud/static/js/main.5bae8a55.js.map",
+    "787.28cb0dcd.chunk.js.map": "/react_car_crud/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b17e8ba.css",
+    "static/js/main.5bae8a55.js"
+  ]
+}
